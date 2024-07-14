@@ -1,0 +1,301 @@
+<config>
+
+    <append xpath="/blocks/block[@name='treeDeadTree01']">
+		<drop event="Destroy" name="treePlantedOak1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='treeDeadTree02']">
+		<drop event="Destroy" name="treePlantedOak1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='treePlainsTree2']">
+		<drop event="Destroy" name="treePlantedOak1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPineDry21m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPineDry21m']">
+        <property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeOakSml01']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treeOakSml01']">
+		<drop event="Destroy" name="treePlantedOak1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeOakMed01']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treeOakMed01']">
+        <property name="DowngradeBlock" value="OP_treeStumpOak"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeOakMed02']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treeOakMed02']">
+        <property name="DowngradeBlock" value="OP_treeStumpOak"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeOakLrg01']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treeOakLrg01']">
+        <property name="DowngradeBlock" value="OP_treeStumpOak"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedOak08m']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treePlantedOak08m']">
+		<drop event="Destroy" name="treePlantedOak1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedOak16m']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treePlantedOak16m']">
+		<property name="DowngradeBlock" value="OP_treeStumpOak"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedOak27m']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treePlantedOak27m']">
+		<property name="DowngradeBlock" value="OP_treeStumpOak"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedOak41m']/drop[@name='treePlantedOak1m']" />
+    <append xpath="/blocks/block[@name='treePlantedOak41m']">
+		<property name="DowngradeBlock" value="OP_treeStumpOak"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	
+	
+	<remove xpath="/blocks/block[@name='treeJuniper4m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeJuniper4m']">
+		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPine12m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPine12m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPine19m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPine19m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPine27m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPine27m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPine31m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPine31m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPine41m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPine41m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeMountainPine48m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeMountainPine48m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeFirLrg01']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treeFirLrg01']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedMountainPine12m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedMountainPine12m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedMountainPine19m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedMountainPine19m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedMountainPine27m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedMountainPine27m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedMountainPine41m']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedMountainPine41m']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	
+	
+	<remove xpath="/blocks/block[@name='treeWinterEverGreen']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treeWinterEverGreen']">
+		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeWinterPine13m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treeWinterPine13m']">
+		<property name="DowngradeBlock" value="OP_treeStumpWinter"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeWinterPine19m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treeWinterPine19m']">
+		<property name="DowngradeBlock" value="OP_treeStumpWinter"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treeWinterPine28m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treeWinterPine28m']">
+		<property name="DowngradeBlock" value="OP_treeStumpWinter"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedWinterPine6m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedWinterPine6m']">
+		<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedWinterPine13m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedWinterPine13m']">
+		<property name="DowngradeBlock" value="OP_treeStumpWinter"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedWinterPine19m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedWinterPine19m']">
+		<property name="DowngradeBlock" value="OP_treeStumpWinter"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePlantedWinterPine28m']/drop[@name='treePlantedWinterPine1m']" />
+    <append xpath="/blocks/block[@name='treePlantedWinterPine28m']">
+		<property name="DowngradeBlock" value="OP_treeStumpWinter"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePineBurntLrg']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePineBurntLrg']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePineBurntMed']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePineBurntMed']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<remove xpath="/blocks/block[@name='treePineBurntFullMed']/drop[@name='treePlantedMountainPine1m']" />
+    <append xpath="/blocks/block[@name='treePineBurntFullMed']">
+		<property name="DowngradeBlock" value="OP_treeStumpMountain"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='treeBurntMaple01']">
+		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='treeBurntMaple02']">
+		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='treeBurntMaple03']">
+		<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.5"/>
+		<property name="FallOver" value="false"/>
+    </append>
+	
+	<append xpath="/blocks"> 
+		<block name="OP_treeStumpOak">
+			<property name="Material" value="MtreeWoodSmall"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="IsPlant" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/Trees/Prefabs/Stump.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="BigDecorationRadius" value="3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
+			<drop event="Destroy" name="foodHoney" count="1" prob=".2"/>
+			<drop event="Destroy" name="treePlantedOak1m" count="1" prob=".5"/>
+			<property name="SortOrder1" value="B907"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Tags" value="wood"/>
+			<property name="FilterTags" value="MC_outdoor,SC_trees"/>
+		</block>
+	</append>
+	
+	<append xpath="/blocks"> 
+		<block name="OP_treeStumpMountain">
+			<property name="Material" value="MtreeWoodSmall"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="IsPlant" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/Trees/Prefabs/Stump.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="BigDecorationRadius" value="3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
+			<drop event="Destroy" name="foodHoney" count="1" prob=".2"/>
+			<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob=".5"/>
+			<property name="SortOrder1" value="B907"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Tags" value="wood"/>
+			<property name="FilterTags" value="MC_outdoor,SC_trees"/>
+		</block>
+	</append>
+	
+	<append xpath="/blocks"> 
+		<block name="OP_treeStumpWinter">
+			<property name="Material" value="MtreeWoodSmall"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="IsPlant" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/Trees/Prefabs/Stump.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="BigDecorationRadius" value="3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
+			<drop event="Destroy" name="foodHoney" count="1" prob=".2"/>
+			<drop event="Destroy" name="treePlantedWinterPine1m" count="1" prob=".5"/>
+			<property name="SortOrder1" value="B907"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Tags" value="wood"/>
+			<property name="FilterTags" value="MC_outdoor,SC_trees"/>
+		</block>
+	</append>
+ 
+</config>
